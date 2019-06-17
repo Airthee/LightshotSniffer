@@ -7,6 +7,9 @@
   <a href="http://www.wtfpl.net/">
     <img alt="License: WTFPL" src="https://img.shields.io/badge/License-WTFPL-yellow.svg" target="_blank" />
   </a>
+  <a href="https://travis-ci.org/Airthee/LightshotSniffer">
+    <img alt="Travis CI" src="https://travis-ci.org/Airthee/LightshotSniffer.svg?branch=master" target="_blank">
+  </a>
   <a href="https://twitter.com/Airthee">
     <img alt="Twitter: Airthee" src="https://img.shields.io/twitter/follow/Airthee.svg?style=social" target="_blank" />
   </a>
