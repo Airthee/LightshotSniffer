@@ -35,19 +35,19 @@
 ## Install
 
 ```sh
-make install
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```sh
-make run
+python sample/LightshotSniffer.py
 ```
 
 ## Run tests
 
 ```sh
-make test
+python -m unittest test
 ```
 
 ## Author
