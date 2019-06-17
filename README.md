@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to LightshotSniffer 👋</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Airthee/LightshotSniffer">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -17,13 +17,6 @@
 ### 🏠 [Homepage](https://github.com/Airthee/LightshotSniffer)
 
 ## Description
-
-### Princip
-
-* Url format : https://prnt.sc/XXXXXX where XXXXXX is the id of the image.
-* The real source of the image is stored in src attribute of ".screenshot-image" element (CSS selector).
-* If the url is "https://st.prntscr.com/2019/04/03/1355/img/0_173a7b_211be8ff.png", we pass.
-* For each valid image, we ask the user to save the image, pass to the next or to the previous.
 
 ### Usage
 
