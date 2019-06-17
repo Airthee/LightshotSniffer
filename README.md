@@ -47,7 +47,8 @@ python sample/LightshotSniffer.py
 ## Run tests
 
 ```sh
-python -m unittest test
+cd src
+python3 -m unittest discover ../test/
 ```
 
 ## Author
