@@ -1,6 +1,5 @@
 # *-* coding: utf8
 
-
 class Generator:
     CHARACTERS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 

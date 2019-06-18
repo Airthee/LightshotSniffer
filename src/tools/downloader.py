@@ -4,10 +4,6 @@ import re
 import requests
 import sys
 
-# from PIL import Image
-# from io import BytesIO
-
-
 class Downloader:
     def __init__(self):
         pass
@@ -25,7 +21,7 @@ class Downloader:
         if httpResponse.getcode() == 200:
             responseBody = httpResponse.read()
             resultSearch = re.search(
-                b"src=[\"']([:\.\w\/]+\.(?:png|jpe?g|bmp))[\"']", responseBody
+                b"src=[\"']([:\\.\\w\\/]+\\.(?:png|jpe?g|bmp))[\"']", responseBody
             )
             if resultSearch:
                 urlImage = resultSearch.group(1)
