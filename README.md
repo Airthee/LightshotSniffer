@@ -10,6 +10,9 @@
   <a href="https://travis-ci.org/Airthee/LightshotSniffer">
     <img alt="Travis CI" src="https://travis-ci.org/Airthee/LightshotSniffer.svg?branch=master" target="_blank">
   </a>
+  <a href='https://coveralls.io/github/Airthee/LightshotSniffer?branch=master'>
+    <img src='https://coveralls.io/repos/github/Airthee/LightshotSniffer/badge.svg?branch=master' alt='Coverage Status' />
+  </a>
   <a href="https://twitter.com/Airthee">
     <img alt="Twitter: Airthee" src="https://img.shields.io/twitter/follow/Airthee.svg?style=social" target="_blank" />
   </a>
