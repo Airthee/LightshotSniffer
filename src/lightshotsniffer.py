@@ -14,6 +14,7 @@ def main():
     endVal = getArgumentValue("--end", "000000")
     runSniffer(startVal, endVal)
 
+
 def runSniffer(start, end):
     # For each value
     # Get url and ask to keep or not the image
@@ -28,6 +29,7 @@ def runSniffer(start, end):
         if not gen.next():
             break
     return 0
+
 
 def getArgumentValue(argName, defaultValue=None):
     try:

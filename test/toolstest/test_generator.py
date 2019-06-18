@@ -1,5 +1,6 @@
-#*-* coding: utf8
+# *-* coding: utf8
 from tools import Generator
+
 
 def test_next():
     assert Generator("000", "ZZZ").next() == "001"
@@ -11,6 +12,7 @@ def test_next():
     assert Generator("A87", "A87").next() == None
     assert Generator("111", "000").next() == "110"
     assert Generator("o2xxg0", "000").next() == "o2xxfz"
+
 
 def test_previous():
     gen = Generator("00z", "zzz")

@@ -4,6 +4,7 @@ import re
 import requests
 import sys
 
+
 class Downloader:
     def __init__(self):
         pass
