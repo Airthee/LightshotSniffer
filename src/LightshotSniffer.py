@@ -1,8 +1,9 @@
-#*-* coding: utf8
+# *-* coding: utf8
 
 import sys
 from tools import Generator
 from tools import Downloader
+
 
 def main():
     letters = "0123456789abcdefghijklmnopqrstuvwxyz"
@@ -24,12 +25,14 @@ def main():
         if not gen.next():
             break
 
-def getArgumentValue(argName, defaultValue = None):
+
+def getArgumentValue(argName, defaultValue=None):
     try:
         argIndex = sys.argv.index(argName)
         return sys.argv[argIndex + 1]
     except ValueError:
         return
+
 
 if __name__ == "__main__":
     main()

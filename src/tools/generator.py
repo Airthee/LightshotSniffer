@@ -1,4 +1,5 @@
-#*-* coding: utf8
+# *-* coding: utf8
+
 
 class Generator:
     CHARACTERS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -20,14 +21,18 @@ class Generator:
         # Return none if current is equal to end
         if self.__current == self.__end:
             return None
-        
+
         # Get next string
         while index >= 0:
             # Apply next
             currentChar = self.__current[index]
-            nextIndex = (self.CHARACTERS.index(currentChar.upper()) + self.__direction) % len(self.CHARACTERS)
+            nextIndex = (
+                self.CHARACTERS.index(currentChar.upper()) + self.__direction
+            ) % len(self.CHARACTERS)
             nextChar = self.CHARACTERS[nextIndex]
-            self.__current = self.__current[:index] + nextChar + self.__current[index + 1:]
+            self.__current = (
+                self.__current[:index] + nextChar + self.__current[index + 1 :]
+            )
 
             # If first char, increase left char
             if nextChar == self.CHARACTERS[0 if self.__direction > 0 else -1]:
