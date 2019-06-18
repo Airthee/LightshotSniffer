@@ -29,10 +29,18 @@
 
 
 ## Install
+This project use python3.6. You may want to create a virtualenv :
+```sh
+virtualenv -p python3.6 env
+source env/bin/activate
+```
+and then install the requierements.
 
 ```sh
 pip install -r requirements.txt
 ```
+
+If you want some docs about virtualenv, go check their [website](https://pypi.org/project/virtualenv/). 
 
 ## Usage
 
