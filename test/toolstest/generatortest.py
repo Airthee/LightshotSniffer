@@ -1,7 +1,6 @@
 #*-* coding: utf8
 import unittest
-import sys, os
-from generator import Generator
+from tools import Generator
 
 class GeneratorTest(unittest.TestCase):
     def test_next(self):
