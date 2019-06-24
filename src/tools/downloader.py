@@ -6,9 +6,6 @@ import sys
 
 
 class Downloader:
-    def __init__(self):
-        pass
-
     @classmethod
     def get_url_by_id(static, id):
         url = "https://prnt.sc/{}".format(id)

@@ -8,6 +8,7 @@ import tkinter as tk
 
 
 def main():
+    # By default, withGui is true
     withGui = getArgumentValue("--gui", "True").upper() in ["TRUE", "YES", "OK", "1"]
 
     # CLI mode
@@ -25,6 +26,8 @@ def main():
         mainWindow.master.title("LightShotSniffer")
         mainWindow.mainloop()
         print("C'est partit")
+
+    return True
 
 
 def runSniffer(start, end):
