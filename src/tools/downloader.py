@@ -10,7 +10,7 @@ class Downloader:
         pass
 
     @classmethod
-    def downloadById(static, id):
+    def get_url_by_id(static, id):
         url = "https://prnt.sc/{}".format(id)
         request = urllib.request.Request(
             url,

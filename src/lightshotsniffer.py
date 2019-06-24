@@ -3,16 +3,28 @@
 import sys
 from tools import Generator
 from tools import Downloader
+from gui import LssWindow
+import tkinter as tk
 
 
 def main():
-    letters = "0123456789abcdefghijklmnopqrstuvwxyz"
+    withGui = getArgumentValue("--gui", "True").upper() in ["TRUE", "YES", "OK", "1"]
 
-    # Get arguments values
-    # Run sniffer
-    startVal = getArgumentValue("--start", "zzzzzz")
-    endVal = getArgumentValue("--end", "000000")
-    runSniffer(startVal, endVal)
+    # CLI mode
+    if not withGui:
+        # Run sniffer
+        startVal = getArgumentValue("--start", "zzzzzz")
+        endVal = getArgumentValue("--end", "000000")
+        runSniffer(startVal, endVal)
+
+    # GUI mode
+    else:
+        # Lancement de la fenêtre
+        root = tk.Tk()
+        mainWindow = LssWindow(master=root)
+        mainWindow.master.title("LightShotSniffer")
+        mainWindow.mainloop()
+        print("C'est partit")
 
 
 def runSniffer(start, end):
@@ -21,7 +33,7 @@ def runSniffer(start, end):
     gen = Generator(start, end)
     while True:
         value = gen.value()
-        img = Downloader.downloadById(value)
+        img = Downloader.get_url_by_id(value)
         # if img:
         #     pass
 
