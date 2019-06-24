@@ -58,6 +58,7 @@ PYTHONPATH=$PWD/src pytest --cov=src/ test
 ```
 
 ## Format source files
+
 ```sh
 black src/ test/
 ```
