@@ -1,19 +1,18 @@
 <h1 align="center">Welcome to LightshotSniffer 👋</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/Airthee/LightshotSniffer">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  <a href="#">
+    <img alt="GitHub tag (latest SemVer)" src="https://img.shields.io/github/tag/Airthee/LightshotSniffer.svg?label=version">
   </a>
-  <a href="http://www.wtfpl.net/">
-    <img alt="License: WTFPL" src="https://img.shields.io/badge/License-WTFPL-yellow.svg" target="_blank" />
+  <a href="http://www.wtfpl.net/" target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Airthee/LightshotSniffer.svg">
   </a>
-  <a href="https://travis-ci.org/Airthee/LightshotSniffer">
+  <a href="https://travis-ci.org/Airthee/LightshotSniffer" target="_blank">
     <img alt="Travis CI" src="https://travis-ci.org/Airthee/LightshotSniffer.svg?branch=master" target="_blank">
   </a>
-  <a href='https://coveralls.io/github/Airthee/LightshotSniffer?branch=master'>
+  <a href='https://coveralls.io/github/Airthee/LightshotSniffer?branch=master' target="_blank">
     <img src='https://coveralls.io/repos/github/Airthee/LightshotSniffer/badge.svg?branch=master' alt='Coverage Status' />
   </a>
-  <a href="https://twitter.com/Airthee">
+  <a href="https://twitter.com/Airthee" target="_blank">
     <img alt="Twitter: Airthee" src="https://img.shields.io/twitter/follow/Airthee.svg?style=social" target="_blank" />
   </a>
 </p>
