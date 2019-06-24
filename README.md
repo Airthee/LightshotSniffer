@@ -48,14 +48,18 @@ If you want some docs about virtualenv, go check their [website](https://pypi.or
 ## Usage
 
 ```sh
-python sample/LightshotSniffer.py
+PYTHONPATH=src/ python src/lightshotsniffer.py
 ```
 
 ## Run tests
 
 ```sh
-cd src
-python3 -m unittest discover ../test/
+PYTHONPATH=$PWD/src pytest --cov=src/ test
+```
+
+## Format source files
+```sh
+black src/ test/
 ```
 
 ## Author
