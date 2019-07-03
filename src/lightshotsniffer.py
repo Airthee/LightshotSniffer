@@ -28,13 +28,16 @@ def main():
 
     return True
 
+
 def parse_arguments():
     # Parse arguments
     parser = argparse.ArgumentParser()
 
     # GUI group
     groupGui = parser.add_argument_group("Run with GUI")
-    groupGui.add_argument("--gui", help="Run programm with GUI", action="store_true", default=False)
+    groupGui.add_argument(
+        "--gui", help="Run programm with GUI", action="store_true", default=False
+    )
 
     # CLI group
     groupCli = parser.add_argument_group("Run with CLI (default)")
@@ -58,6 +61,7 @@ def run_sniffer(start, end):
         if not gen.next():
             break
     return 0
+
 
 if __name__ == "__main__":
     main()
